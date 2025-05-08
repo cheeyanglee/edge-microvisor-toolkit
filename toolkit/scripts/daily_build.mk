@@ -71,11 +71,12 @@ ifneq ($(DAILY_BUILD_REPO),)
    $(warning $(PACKAGE_ROOT))
    $(warning ######################### WARNING #########################)
    $(warning )
-   override PACKAGE_URL_LIST  += $(PACKAGE_ROOT) \
-                                 $(PACKAGE_ROOT)/RPM/x86_64 \
-                                 $(PACKAGE_ROOT)/RPM/noarch \
-				 $(PACKAGE_ROOT)/RPM/debuginfo
-   override SRPM_URL_LIST     += $(PACKAGE_ROOT)/SRPMS
+   override PACKAGE_URL_LIST  := $(PACKAGE_ROOT)/RPMS/x86_64 \
+                                 $(PACKAGE_ROOT)/RPMS/noarch \
+				 $(PACKAGE_ROOT)/RPMS/debuginfo\
+				 $(PACKAGE_URL_LIST)
+   override SRPM_URL_LIST     := $(PACKAGE_ROOT)/SRPMS \
+	                         $(SRPM_URL_LIST)
    override REPO_LIST         += $(DAILY_BUILD_REPO)
 endif
 
