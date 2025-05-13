@@ -92,6 +92,10 @@ fi
 
 %changelog
 * Fri Apr 28 2025 Ranjan Dutta <ranjan.dutta@intel.com> - 1.7.13-8
+- merge from Azure Linux 3.0.20250423.
+- Fix CVE-2025-27144
+
+* Fri Mar 21 2025 Anuj Mittal <anuj.mittal@intel.com> - 1.7.13-7
 - Bump release to rebuild
 
 * Fri Mar 21 2025 Dallas Delaney <dadelan@microsoft.com> - 1.7.13-7

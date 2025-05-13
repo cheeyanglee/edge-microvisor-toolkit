@@ -34,10 +34,11 @@ install local-path-provisioner %{buildroot}%{_bindir}/local-path-provisioner
 
 %changelog
 * Fri Apr 28 2025 Ranjan Dutta <ranjan.dutta@intel.com> - 0.0.24-6
-- Bump release to rebuild
-
-* Wed Mar 05 2025 Archana Shettigar <v-shettigara@microsoft.com> - 0.0.24-5
+- merge from Azure Linux tag 3.0.20250423-3.0
 - Address CVE-2020-8565
+
+* Fri Mar 21 2025 Anuj Mittal <anuj.mittal@intel.com> - 0.0.24-5
+- Bump Release to rebuild
 
 * Tue Mar 04 2025 corvus-callidus <108946721+corvus-callidus@users.noreply.github.com> - 0.0.24-4
 * Address CVE-2023-44487

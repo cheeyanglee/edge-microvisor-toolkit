@@ -4,7 +4,7 @@
 Summary:        Prometheus monitoring system and time series database
 Name:           prometheus
 Version:        2.45.4
-Release:        11%{?dist}
+Release:        9%{?dist}
 License:        Apache-2.0
 Vendor:         Microsoft Corporation
 Distribution:   Azure Linux
@@ -143,17 +143,11 @@ fi
 %doc README.md RELEASE.md documentation
 
 %changelog
-* Fri Apr 28 2025 Ranjan Dutta <ranjan.dutta@intel.com> - 2.45.4-11
-- Bump release to rebuild
+* Fri Apr 28 2025 Ranjan Dutta <ranjan.dutta@intel.com> - 2.45.4-9
+- merge from Azure Linux tag 3.0.20250423-3.0
 
-* Mon Mar 31 2025 Andrew Phelps <anphel@microsoft.com> - 2.45.4-10
-- Add patches to fix test reliability issues with TestQuerierIndexQueriesRace
-
-* Sun Mar 30 2025 Kanishk Bansal <kanbansal@microsoft.com> - 2.45.4-9
-- Patch CVE-2025-30204
-
-* Thu Mar 06 2025 Sandeep Karambelkar <skarambelkar@microsoft.com> - 2.45.4-8
-- Fix CVE-2025-22868
+* Fri Mar 21 2025 Anuj Mittal <anuj.mittal@intel.com> - 2.45.4-8
+- Bump Release to rebuild
 
 * Tue Mar 04 2025 corvus-callidus <108946721+corvus-callidus@users.noreply.github.com> - 2.45.4-7
 - Fix CVE-2023-44487

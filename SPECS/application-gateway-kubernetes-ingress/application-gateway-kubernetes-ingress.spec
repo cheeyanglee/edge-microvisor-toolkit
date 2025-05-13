@@ -46,6 +46,10 @@ cp appgw-ingress %{buildroot}%{_bindir}/
 
 %changelog
 * Fri Apr 28 2025 Ranjan Dutta <ranjan.dutta@intel.com> - 1.7.7-3
+- merge from Azure Linux 3.0.20250423.
+- Patch CVE-2025-30204
+
+* Fri Mar 21 2025 Anuj Mittal <anuj.mittal@intel.com> - 1.7.7-2
 - Bump release to rebuild
 
 * Sat Mar 29 2025 Kanishk Bansal <kanbansal@microsoft.com> - 1.7.7-2

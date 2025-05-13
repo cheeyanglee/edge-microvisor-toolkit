@@ -52,10 +52,11 @@ install -p -m 755 -t %{buildroot}%{_bindir} ./dist/flanneld
 
 %changelog
 * Fri Apr 28 2025 Ranjan Dutta <ranjan.dutta@intel.com> - 0.24.2-13
-- Bump release to rebuild
-
-* Sun Mar 30 2025 Kanishk Bansal <kanbansal@microsoft.com> - 0.24.2-12
+- merge from Azure Linux tag 3.0.20250423-3.0
 - Patch CVE-2025-30204
+
+* Fri Mar 21 2025 Anuj Mittal <anuj.mittal@intel.com> - 0.24.2-12
+- Bump Release to rebuild
 
 * Tue Feb 25 2025 Chris Co <chrco@microsoft.com> - 0.24.2-11
 - Bump to rebuild with updated glibc

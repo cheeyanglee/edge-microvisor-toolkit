@@ -122,10 +122,11 @@ fi
 
 %changelog
 * Fri Apr 28 2025 Ranjan Dutta <ranjan.dutta@intel.com> - 25.0.3-12
-- Bump release to rebuild
-
-* Mon Mar 17 2025 Dallas Delaney <dadelan@microsoft.com> - 25.0.3-11
+- merge from Azure Linux tag 3.0.20250423-3.0
 - Patch CVE-2025-22868 & CVE-2025-22869
+
+* Fri Mar 21 2025 Anuj Mittal <anuj.mittal@intel.com> - 25.0.3-11
+- Bump Release to rebuild
 
 * Fri Feb 14 2025 Kanishk Bansal <kanbansal@microsoft.com> - 25.0.3-10
 - Address CVE-2023-45288

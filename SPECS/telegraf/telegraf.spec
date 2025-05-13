@@ -128,7 +128,7 @@ fi
 
 %changelog
 * Thu Apr 28 2025 Ranjan Dutta <ranjan.dutta@intel.com> - 1.31.0-21
-- Bump up the version on merge frm AZL tag 3.0.20250423-3.0
+- merge from Azure Linux tag 3.0.20250423-3.0
 - Patch CVE-2025-30204
 - Fix CVE-2025-22870, CVE-2024-51744 with an upstream patch
 - Patch CVE-2025-22868, CVE-2025-22869

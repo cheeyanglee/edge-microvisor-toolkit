@@ -276,10 +276,11 @@ fi
 
 %changelog
 * Fri Apr 28 2025 Ranjan Dutta <ranjan.dutta@intel.com> - 1.30.10-5
-- Bump release to rebuild
-
-* Sat Mar 29 2025 Kanishk Bansal <kanbansal@microsoft.com> - 1.30.10-4
+- merge from Azure Linux tag 3.0.20250423-3.0
 - Patch CVE-2025-30204
+
+* Fri Mar 21 2025 Anuj Mittal <anuj.mittal@intel.com> - 1.30.10-4
+- Bump Release to rebuild
 
 * Fri Feb 28 2025 Kanishk Bansal <kanbansal@microsoft.com> - 1.30.10-3
 - Fix CVE-2025-27144, CVE-2025-22868, CVE-2025-22869 with an upstream patch

@@ -66,6 +66,10 @@ go test -mod=vendor
 
 %changelog
 * Fri Apr 28 2025 Ranjan Dutta <ranjan.dutta@intel.com> - 10.25.1-4
+- merge from Azure Linux 3.0.20250423.
+- Patch CVE-2025-30204
+
+* Fri Mar 21 2025 Anuj Mittal <anuj.mittal@intel.com> - 10.25.1-3
 - Bump release to rebuild
 
 * Fri Mar 28 2025 Kanishk Bansal <kanbansal@microsoft.com> - 10.25.1-3

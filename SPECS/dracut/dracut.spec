@@ -338,7 +338,7 @@ ln -srv %{buildroot}%{_bindir}/%{name} %{buildroot}%{_sbindir}/%{name}
 
 %changelog
 * Thu Apr 28 2025 Ranjan Dutta <ranjan.dutta@intel.com> - 102-12
-- Bump up the version on merge frm AZL tag 3.0.20250423-3.0
+- merge from Azure Linux tag 3.0.20250423-3.0
 - Add fix for systemd-cryptsetup module to be included in initramfs when needed
 
 * Tue Mar 18 2025 Ranjan Dutta <ranjan.dutta@intel.com> - 102-11

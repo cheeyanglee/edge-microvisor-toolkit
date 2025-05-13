@@ -53,10 +53,10 @@ make test-unit-local
 
 %changelog
 * Fri Apr 28 2025 Ranjan Dutta <ranjan.dutta@intel.com> - 1.14.4-5
-- Bump release to rebuild
+- merge from Azure Linux tag 3.0.20250423-3.0
 
-* Sat Mar 01 2025 Kanishk Bansal <kanbansal@microsoft.com> - 1.14.4-4
-- Fix CVE-2025-27144 with an upstream patch
+* Fri Mar 21 2025 Anuj Mittal <anuj.mittal@intel.com> - 1.14.4-4
+- Bump Release to rebuild
 
 * Mon Nov 11 2024 Rohit Rawat <rohitrawat@microsoft.com> - 1.14.4-3
 - Fix CVE-2023-45288 and CVE-2024-9676

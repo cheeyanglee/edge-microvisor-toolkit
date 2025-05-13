@@ -5,7 +5,7 @@
 Summary: Industry-standard container runtime
 Name: %{upstream_name}2
 Version: 2.0.0
-Release: 7%{?dist}
+Release: 6%{?dist}
 License: ASL 2.0
 Group: Tools/Container
 URL: https://www.containerd.io
@@ -90,14 +90,13 @@ fi
 %dir /opt/containerd/lib
 
 %changelog
-* Fri Apr 28 2025 Ranjan Dutta <ranjan.dutta@intel.com> - 2.0.0-7
-- Bump release to rebuild
-
-* Fri Mar 21 2025 Dallas Delaney <dadelan@microsoft.com> - 2.0.0-6
+* Fri Apr 28 2025 Ranjan Dutta <ranjan.dutta@intel.com> - 2.0.0-6
+- merge from Azure Linux 3.0.20250423.
 - Fix CVE-2025-27144
-
-* Mon Mar 03 2025 Nan Liu <liunan@microsoft.com> - 2.0.0-5
 - Add "Provides/Obsoletes:" to shift all installs of containerd and moby-containerd to containerd2
+
+* Fri Mar 21 2025 Anuj Mittal <anuj.mittal@intel.com> - 2.0.0-5
+- Bump Release to rebuild
 
 * Mon Feb 03 2025 Mitch Zhu <mitchzhu@microsoft.com> - 2.0.0-4
 - Fix ptest in tardev-snapshotter support patch

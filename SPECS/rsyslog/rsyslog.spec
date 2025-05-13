@@ -213,7 +213,7 @@ fi
 
 %changelog
 * Thu Apr 28 2025 Ranjan Dutta <ranjan.dutta@intel.com> - 8.2308.0-5
-- Bump up the version on merge frm AZL tag 3.0.20250423-3.0
+- merge from Azure Linux tag 3.0.20250423-3.0
 - Add patch to fix upstream issue #5158
 
 * Thu Sep 19 2024 Naveen Saini <naveen.kumar.saini@intel.com> - 8.2308.0-4

@@ -81,12 +81,13 @@ fi
 
 %changelog
 * Fri Apr 28 2025 Ranjan Dutta <ranjan.dutta@intel.com> - 1.7.7-8
-- Bump release to rebuild
-
-* Wed Mar 05 2025 corvus-callidus <108946721+corvus-callidus@users.noreply.github.com - 1.7.7-7
+- merge from Azure Linux tag 3.0.20250423-3.0
 - Rename patch file that addresses CVE-2023-39325
 - Address CVE-2023-44487
 - Fix rpmbuild warnings for changelog dates
+
+* Fri Mar 21 2025 Anuj Mittal <anuj.mittal@intel.com> - 1.7.7-7
+- Bump Release to rebuild
 
 * Fri Jan 31 2025 Kanishk Bansal <kanbansal@microsoft.com> - 1.7.7-6
 - Address CVE-2024-28180, CVE-2023-45288

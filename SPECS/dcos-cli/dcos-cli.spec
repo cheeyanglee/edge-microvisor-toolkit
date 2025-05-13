@@ -47,10 +47,8 @@ go test -mod=vendor
 %{_bindir}/dcos
 
 %changelog
-* Fri Apr 28 2025 Ranjan Dutta <ranjan.dutta@intel.com> - 1.2.0-18
-- Bump release to rebuild
-
-* Sat Mar 01 2025 Kanishk Bansal <kanbansal@microsoft.com> - 1.2.0-17
+* Fri Apr 28 2025 Ranjan Dutta <ranjan.dutta@intel.com> - 1.2.0-17
+- merge from Azure Linux 3.0.20250423.
 - Fix CVE-2025-27144 with an upstream patch
 
 * Tue Oct 01 2024 Henry Li <lihl@microsoft.com> - 1.2.0-16

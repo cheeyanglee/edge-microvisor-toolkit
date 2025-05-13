@@ -109,10 +109,11 @@ install -D -m0755 bin/webhook %{buildroot}%{_bindir}/
 
 %changelog
 * Fri Apr 28 2025 Ranjan Dutta <ranjan.dutta@intel.com> - 1.12.15-4
-- Bump release to rebuild
-
-* Fri Mar 28 2025 Kanishk Bansal <kanbansal@microsoft.com> - 1.12.15-3
+- merge from Azure Linux 3.0.20250423.
 - Patch CVE-2025-30204
+
+* Fri Mar 21 2025 Anuj Mittal <anuj.mittal@intel.com> - 1.12.15-3
+- Bump Release to rebuild
 
 * Mon Mar 03 2025 Kanishk Bansal <kanbansal@microsoft.com> - 1.12.15-2
 - Fix CVE-2025-22868, CVE-2025-22869 & CVE-2025-27144 with an upstream patch

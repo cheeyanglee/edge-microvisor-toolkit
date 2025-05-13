@@ -9,7 +9,7 @@
 Summary:        SELinux policy
 Name:           selinux-policy
 Version:        %{refpolicy_major}.%{refpolicy_minor}
-Release:        17%{?dist}
+Release:        18%{?dist}
 License:        GPLv2
 Vendor:         Intel Corporation
 Distribution:   Edge Microvisor Toolkit
@@ -73,6 +73,8 @@ Patch51:        0049-Fix-tpm2_abrmd-selinux-permission-denied.patch
 Patch52:        0050-Fix-fsadm-selinux-permission-denied.patch
 Patch53:        0051-Fix-ntpd-selinux-permission-denied.patch
 Patch54:        0038-enable-liveos-iso-flow.patch
+
+Patch55:        0036-fstools-Add-additional-perms-for-cloud-utils-growpar.patch
 BuildRequires:  bzip2
 BuildRequires:  checkpolicy >= %{CHECKPOLICYVER}
 BuildRequires:  m4

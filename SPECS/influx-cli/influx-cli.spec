@@ -99,10 +99,11 @@ bin/influx completion zsh > %{buildroot}/%{_datadir}/zsh/site-functions/_influx
 
 %changelog
 * Fri Apr 28 2025 Ranjan Dutta <ranjan.dutta@intel.com> - 2.7.5-3
-- Bump release to rebuild
-
-* Wed Mar 12 2025 Mykhailo Bykhovtsev <mbykhovtsev@microsoft.com> - 2.7.5-2
+- merge from Azure Linux tag 3.0.20250423-3.0
 - Add back bash-completion subpackage for influx-cli
+
+* Fri Mar 21 2025 Anuj Mittal <anuj.mittal@intel.com> - 2.7.5-2
+- Bump Release to rebuild
 
 * Tue Feb 11 2025 CBL-Mariner Servicing Account <cblmargh@microsoft.com> - 2.7.5-1
 - Auto-upgrade to 2.7.5 - Update influx-cli to match influxdb version for CVE-2023-44487
