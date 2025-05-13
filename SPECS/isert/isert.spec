@@ -28,7 +28,7 @@
 
 %global last-known-kernel 6.6.82.1-1
 
-%if 0%{azl}
+%if 0%{emt}
 %global target_kernel_version_full %(/bin/rpm -q --queryformat '%{VERSION}-%{RELEASE}' kernel-headers)
 %else
 %global target_kernel_version_full f.a.k.e

@@ -36,7 +36,7 @@
 %{!?_version: %define _version 24.10}
 %{!?_release: %define _release OFED.24.10.0.6.7.1}
 
-%if 0%{azl}
+%if 0%{emt}
 %global target_kernel_version_full %(/bin/rpm -q --queryformat '%{VERSION}-%{RELEASE}' kernel-headers)
 %else
 %global target_kernel_version_full f.a.k.e
