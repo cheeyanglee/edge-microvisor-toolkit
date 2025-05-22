@@ -6,6 +6,7 @@
         "cronie-anacron",
         "logrotate",
         "core-packages-base-image",
+	"dracut-systemd-cryptsetup",
         "initramfs",
         "shadow-utils"
     ]
