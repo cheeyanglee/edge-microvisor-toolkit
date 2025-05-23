@@ -13,7 +13,7 @@
 Summary:        Unified Kernel Image
 Name:           kernel-uki
 Version:        6.12.23
-Release:        3%{?dist}
+Release:        2%{?dist}
 License:        GPLv2
 Vendor:         Intel Corporation
 Distribution:   Edge Microvisor Toolkit
@@ -23,7 +23,7 @@ Source0:        kernel-uki-dracut.conf
 
 BuildRequires:  kernel = %{version}-%{release}
 BuildRequires:  systemd-ukify
-BuildRequires:  dracut
+BuildRequires:  dracut-systemd-cryptsetup
 BuildRequires:  binutils
 BuildRequires:  systemd-boot
 BuildRequires:  systemd-udev
@@ -70,9 +70,6 @@ cp %{buildroot}/boot/vmlinuz-uki-%{kernelver}.efi %{buildroot}/boot/efi/EFI/Linu
 /boot/efi/EFI/Linux/vmlinuz-uki-%{kernelver}.efi
 
 %changelog
-* Thu May 22 2025 Mun Chun Yep <mun.chun.yep@intel.com> - 6.12.23-3
-- Revert 6d93d4260 to fix tmpfs mount issue.
-
 * Thu May 15 2025 Lee Chee Yang <chee.yang.lee@intel.com> - 6.12.23-2
 - bump to sync for kernel-uki
 
