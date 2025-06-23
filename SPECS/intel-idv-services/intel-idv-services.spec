@@ -68,23 +68,6 @@ if [ $1 -eq 0 ]; then
 fi
 
 %changelog
-* Mon Jun 23 2025 Dhanya A <dhanya.a@intel.com> - 0.1-7
-- Use standard macro in spec file
+* Mon Jun 16 2025 Dhanya A <dhanya.a@intel.com> - 0.1-1
+- Original version for Edge Microvisor Toolkit. License verified.
 
-* Fri Jun 20 2025 Dhanya A <dhanya.a@intel.com> - 0.1-6
-- Update comment in spec file
-
-* Thu Jun 19 2025 Dhanya A <dhanya.a@intel.com> - 0.1-5
-- Copy scripts to bin directory and add preset file
-
-* Wed Jun 18 2025 Dhanya A <dhanya.a@intel.com> - 0.1-4
-- Use custom macros for standard path
-
-* Tue Jun 17 2025 Dhanya A <dhanya.a@intel.com> - 0.1-3
-- Remove command to create logs file.
-
-* Mon Jun 16 2025 Dhanya A <dhanya.a@intel.com> - 0.1-2
-- Initial Edge Microvisor Toolkit import from Fedora 43 (license: MIT). License verified.
-
-* Fri Jun 13 2025 Dhanya A <dhanya.a@intel.com> - 0.1-1
-- Initial RPM package for scripts and systemd services
