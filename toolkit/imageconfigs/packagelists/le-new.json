@@ -1,0 +1,6 @@
+{
+  "packages": [
+    "autoconf",
+    "qemu-docs"
+  ]
+}
