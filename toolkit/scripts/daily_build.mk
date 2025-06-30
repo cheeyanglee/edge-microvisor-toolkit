@@ -77,7 +77,7 @@ ifneq ($(DAILY_BUILD_REPO),)
 				 $(PACKAGE_URL_LIST)
    override SRPM_URL_LIST     := $(PACKAGE_ROOT)/SRPMS \
 				 $(SRPM_URL_LIST)
-   override REPO_LIST         += $(DAILY_BUILD_REPO) \
+   override REPO_LIST         := $(DAILY_BUILD_REPO) \
                                  $(REPO_LIST)
 endif
 
