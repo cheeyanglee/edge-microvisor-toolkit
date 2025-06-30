@@ -1,6 +1,6 @@
 [development-repo]
 name=development Repo
-baseurl=http://rpm-edgemicrovisor.intel.com/3.0
+baseurl=http://rpm-edgemicrovisor.intel.com/cy-test
 enabled=1
 gpgcheck=0
 skip_if_unavailable=1
