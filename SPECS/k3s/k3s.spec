@@ -1,7 +1,7 @@
 Name:          k3s
 Summary:       K3s - Lightweight Kubernetes
 Version:       1.32.4
-Release:       2%{?dist}
+Release:       20%{?dist}
 License:       ASL 2.0
 Vendor:        Intel Corporation
 Distribution:  Edge Microvisor Toolkit
