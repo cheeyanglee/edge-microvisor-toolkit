@@ -1,7 +1,7 @@
 Summary:        Metapackage with core sets of packages
 Name:           core-packages
 Version:        %{emt}.0
-Release:        6%{?dist}
+Release:        7%{?dist}
 License:        ASL 2.0
 Vendor:         Microsoft Corporation
 Distribution:   Azure Linux
@@ -62,7 +62,14 @@ Requires:       findutils
 Requires:       grep
 Requires:       gzip
 Requires:       azurelinux-release
+<<<<<<< HEAD
 Requires:       edge-repos
+=======
+Requires:       azurelinux-repos-cloud-native
+Requires:       azurelinux-repos-ms-non-oss
+Requires:       azurelinux-repos-ms-oss
+Requires:       azurelinux-repos
+>>>>>>> 3.0.20250822-3.0
 Requires:       ncurses-libs
 Requires:       openssl
 Requires:       readline
@@ -89,10 +96,13 @@ Requires:       zlib
 %files container
 
 %changelog
-* Mon July 16 2024 Jon Slobodzian <joslobo@microsoft.com> - 3.0-6
+* Thu May 29 2025 Andrew Phelps <anphel@microsoft.com> - 3.0-7
+- Add azurelinux-repos-cloud-native to the base container
+
+* Mon Jul 16 2024 Jon Slobodzian <joslobo@microsoft.com> - 3.0-6
 - Restore azurelinux-repos to their production versions for all images.
 
-* Mon July 08 2024 Riken Maharjan <rmaharjan@microsoft.com> - 3.0-5
+* Mon Jul 08 2024 Riken Maharjan <rmaharjan@microsoft.com> - 3.0-5
 - Add azurelinux-repos-ms-oss-preview to the base container
 
 * Fri Apr 26 2024 Tobias Brick <tobiasb@microsoft.com> - 3.0-4
