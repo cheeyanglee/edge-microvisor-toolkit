@@ -1,10 +1,10 @@
 %define emt_ver 3
-%define dist_version 26.06~preview
+%define dist_version 26.06
 %define build_number_no_dist_no_time %(echo %{distro_release_version} | cut -d. -f 3)
 
 Summary:        Edge Microvisor Toolkit release files
 Name:           edge-release
-Version:        %{dist_version}
+Version:        %{dist_version}~BETA
 Release:        1%{?dist}
 License:        MIT
 Vendor:         Intel Corporation
@@ -40,7 +40,7 @@ install -d %{buildroot}%{_rpmmacrodir}
 
 cat <<-"EOF" > %{buildroot}%{_libdir}/edge-release
 %{distribution} %{version}
-BUILD_NUMBER=%{distro_full_version}-%{build_number_no_dist_no_time}
+BUILD_NUMBER=%{distro_release_version_no_time}
 EOF
 ln -sv ..%{_libdir}/edge-release %{buildroot}%{_sysconfdir}/edge-release
 
@@ -54,10 +54,10 @@ ln -sv ..%{_libdir}/lsb-release %{buildroot}%{_sysconfdir}/lsb-release
 
 cat <<-"EOF" > %{buildroot}%{_libdir}/os-release
 NAME="%{distribution}"
-VERSION="%{distro_full_version}"
+VERSION="%{distro_release_version_no_time}"
 ID="Edge Microvisor Toolkit"
 VERSION_ID="3.0"
-PRETTY_NAME="%{distribution} %{distro_full_version}"
+PRETTY_NAME="%{distribution} %{version}"
 ANSI_COLOR="1;34"
 HOME_URL="%{url}"
 BUG_REPORT_URL="%{url}"
@@ -66,12 +66,12 @@ EOF
 ln -sv ..%{_libdir}/os-release %{buildroot}%{_sysconfdir}/os-release
 
 cat <<-"EOF" > %{buildroot}%{_libdir}/issue
-Welcome to %{distribution} %{distro_full_version} (%{_arch}) - (\l)
+Welcome to %{distribution} %{version} (%{_arch}) - (\l)
 EOF
 ln -sv ..%{_libdir}/issue %{buildroot}%{_sysconfdir}/issue
 
 cat <<-"EOF" > %{buildroot}%{_libdir}/issue.net
-Welcome to %{distribution} %{distro_full_version} (%{_arch})
+Welcome to %{distribution} %{version} (%{_arch})
 EOF
 ln -sv ..%{_libdir}/issue.net %{buildroot}%{_sysconfdir}/issue.net
 
@@ -121,7 +121,10 @@ install -Dm0644 %{SOURCE4} -t %{buildroot}%{_sysctldir}/
 %{_sysctldir}/*.conf
 
 %changelog
-* Thu Jan 29 2025 Lee Chee Yang <chee.yang.lee@intel.com> - 26.06~preview-1
+* Thu Feb 5 2026 Lee Chee Yang <chee.yang.lee@intel.com> - 26.06-1
+- bump version for 26.06  release.
+
+* Thu Jan 29 2026 Lee Chee Yang <chee.yang.lee@intel.com> - 26.06~preview-1
 - bump version for 26.06 preview release.
 
 * Mon Nov 24 2025 Lee Chee Yang <chee.yang.lee@intel.com> - 25.06-1
