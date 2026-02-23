@@ -128,6 +128,9 @@ Patch:          CVE-2025-0690.patch
 Patch:          CVE-2024-45778.patch
 Patch:          CVE-2025-0678.patch
 Patch:          CVE-2024-45780.patch
+Patch:          CVE-2025-61661.patch
+Patch:          CVE-2025-61662.patch
+Patch:          CVE-2025-61663.patch
 # Following are included as part of above CVEs and kept here as nopatch
 # and commented out, because from patch command perspective, these files
 # have garbage content.
@@ -465,8 +468,8 @@ cp $GRUB_PXE_MODULE_SOURCE $EFI_BOOT_DIR/$GRUB_PXE_MODULE_NAME
 %config(noreplace) %{_sysconfdir}/grub.d/41_custom
 
 %changelog
-* Tue Jan 6 2025 Lee Chee Yang <chee.yang.lee@intel.com> - 2.06-26
-- merge from Azure Linux 3.0.20251206-3.0
+* Mon Feb 23 2026 Lee Chee Yang <chee.yang.lee@intel.com> - 2.06-26
+- merge from Azure Linux 3.0.20260204-3.0
 - Addressed following grub2 CVEs
 - CVE-2025-0684
 - CVE-2024-45782
@@ -491,6 +494,7 @@ cp $GRUB_PXE_MODULE_SOURCE $EFI_BOOT_DIR/$GRUB_PXE_MODULE_NAME
 - CVE-2017-7526
 - CVE-2019-13627
 - CVE-2014-3591
+- Patch CVE-2025-61661, CVE-2025-61662 & CVE-2025-61663
 
 * Mon Sep 8 2025 Lee Chee Yang <chee.yang.lee@intel.com> - 2.06-25
 - merge from Azure Linux 3.0.20250910-3.0.
