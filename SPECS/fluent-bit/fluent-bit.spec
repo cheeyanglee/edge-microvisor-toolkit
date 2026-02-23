@@ -19,6 +19,9 @@ Patch5:         CVE-2025-31498.patch
 Patch6:         CVE-2025-54126.patch
 Patch7:         CVE-2025-58749.patch
 Patch8:         CVE-2025-12970.patch
+Patch9:         CVE-2025-12977.patch
+Patch10:        CVE-2025-12969.patch
+Patch11:        CVE-2025-62408.patch
 BuildRequires:  bison
 BuildRequires:  cmake
 BuildRequires:  cyrus-sasl-devel
@@ -188,7 +191,12 @@ install -m 644 %{modulename}.pp %{buildroot}%{_datadir}/selinux/packages/%{modul
 %selinux_modules_uninstall -s %{selinuxtype} %{modulename}
 
 %changelog
-* Mon Jan 5 2025 Lee Chee Yang <chee.yang.lee@intel.com> - 3.1.10-2
+* Mon Feb 23 2026 Lee Chee Yang <chee.yang.lee@intel.com> - 3.1.10-4
+- merge from Azure Linux 3.0.20260204-3.0
+- Patch for CVE-2025-62408
+- Patch for CVE-2025-12977 and CVE-2025-12969
+
+* Mon Jan 5 2026 Lee Chee Yang <chee.yang.lee@intel.com> - 3.1.10-2
 - merge from Azure Linux 3.0.20251206-3.0
 - Upgrade to 3.1.10
 - Patch for CVE-2025-12970
