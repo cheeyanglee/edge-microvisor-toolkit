@@ -3,7 +3,7 @@
 Summary:        Rocket-fast system for log processing
 Name:           rsyslog
 Version:        8.2308.0
-Release:        5%{?dist}
+Release:        6%{?dist}
 License:        GPLv3+ AND ASL 2.0
 Vendor:         Intel Corporation
 Distribution:   Edge Microvisor Toolkit
@@ -212,6 +212,10 @@ fi
 %{_libdir}/rsyslog/omsnmp.so
 
 %changelog
+* Mon Feb 23 2026 Lee Chee Yang <chee.yang.lee@intel.com> - 8.2308.0-6
+- merge from Azure Linux 3.0.20260204-3.0
+- Bumping release to rebuild with new 'net-snmp' libs.
+
 * Thu Apr 28 2025 Ranjan Dutta <ranjan.dutta@intel.com> - 8.2308.0-5
 - merge from Azure Linux tag 3.0.20250423-3.0
 - Add patch to fix upstream issue #5158
