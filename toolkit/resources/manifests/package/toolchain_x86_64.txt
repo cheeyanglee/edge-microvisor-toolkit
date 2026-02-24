@@ -227,9 +227,9 @@ libssh2-debuginfo-1.11.1-1.emt3.x86_64.rpm
 libssh2-devel-1.11.1-1.emt3.x86_64.rpm
 libstdc++-13.2.0-7.emt3.x86_64.rpm
 libstdc++-devel-13.2.0-7.emt3.x86_64.rpm
-libtasn1-4.19.0-2.emt3.x86_64.rpm
-libtasn1-debuginfo-4.19.0-2.emt3.x86_64.rpm
-libtasn1-devel-4.19.0-2.emt3.x86_64.rpm
+libtasn1-4.19.0-3.emt3.x86_64.rpm
+libtasn1-debuginfo-4.19.0-3.emt3.x86_64.rpm
+libtasn1-devel-4.19.0-3.emt3.x86_64.rpm
 libtool-2.4.7-1.emt3.x86_64.rpm
 libtool-debuginfo-2.4.7-1.emt3.x86_64.rpm
 libxcrypt-4.4.36-2.emt3.x86_64.rpm
