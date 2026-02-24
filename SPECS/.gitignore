@@ -176,6 +176,7 @@ erofs-utils
 espeak-ng
 espeakup
 execstack
+expat
 expect
 expected
 extra-cmake-modules
@@ -331,6 +332,7 @@ kata-containers-cc
 kata-packages-uvm
 kbd
 kde-settings
+keda
 keepalived
 keras
 kernel-64k
