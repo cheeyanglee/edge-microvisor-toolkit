@@ -228,8 +228,8 @@ libksba-devel-1.6.4-1.emt3.x86_64.rpm
 libxslt-1.1.43-3.emt3.x86_64.rpm
 npth-1.6-4.emt3.x86_64.rpm
 pinentry-1.2.1-1.emt3.x86_64.rpm
-gnupg2-2.4.7-2.emt3.x86_64.rpm
-gnupg2-lang-2.4.7-2.emt3.x86_64.rpm
+gnupg2-2.4.9-2.emt3.x86_64.rpm
+gnupg2-lang-2.4.9-2.emt3.x86_64.rpm
 gpgme-1.23.2-2.emt3.x86_64.rpm
 edge-rpm-macros-3.0-2.emt3.noarch.rpm
 edge-check-macros-3.0-2.emt3.noarch.rpm
