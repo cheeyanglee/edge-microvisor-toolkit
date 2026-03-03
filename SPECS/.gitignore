@@ -525,6 +525,7 @@ libvirt-dbus
 libvirt-glib
 libvirt-java
 libvirt-python
+libvma
 libvoikko
 libwacom
 libwebp
@@ -635,6 +636,7 @@ nlohmann-json
 nlopt
 nmap
 nodejs
+nodejs24
 npth
 nspr
 nss
