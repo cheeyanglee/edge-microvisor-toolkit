@@ -10,6 +10,7 @@ REPO_ROOT="$(git rev-parse --show-toplevel)"
 
 skip_list=(
     "apparmor"
+    "azure-iot-sdk-c"
     "azurelinux-release"
     "azurelinux-repos"
     "azurelinux-rpm-macros"
