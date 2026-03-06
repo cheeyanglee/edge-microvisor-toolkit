@@ -519,6 +519,7 @@ liburing
 libusb
 libuser
 libuv
+libvma
 libvirt-dbus
 libvirt-glib
 libvirt-java
@@ -633,6 +634,7 @@ nlohmann-json
 nlopt
 nmap
 nodejs
+nodejs24
 npth
 nspr
 nss
