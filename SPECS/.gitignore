@@ -1187,6 +1187,7 @@ rpcbind
 rpcsvc-proto
 rpm
 rpm-mpi-hooks
+rpm-ostree
 rrdtool
 rshim
 rsync
