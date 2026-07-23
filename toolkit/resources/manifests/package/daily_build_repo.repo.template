@@ -1,6 +1,6 @@
 [daily-build-repo]
 name=Edge Microvisor Toolkit {{.DAILY_REPO_NAME}}
-baseurl=https://mariner3dailydevrepo.blob.core.windows.net/{{.DAILY_REPO_NAME}}
+baseurl=http://rpm-emt.intel.com/pulp/content/emt-next-base/{{.DAILY_REPO_NAME}}
 gpgkey=file:///etc/pki/rpm-gpg/INTEL-RPM-GPG-KEY
 gpgcheck=0
 repo_gpgcheck=0
