@@ -1178,6 +1178,7 @@ rabbitmq-server
 radvd
 ragel
 rapidjson
+rdma-core
 re2
 readline
 reproc
