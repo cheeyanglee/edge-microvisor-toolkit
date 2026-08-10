@@ -168,8 +168,8 @@ libarchive-devel-3.7.7-6.emt26.x86_64.rpm
 libassuan-2.5.6-1.emt26.x86_64.rpm
 libassuan-debuginfo-2.5.6-1.emt26.x86_64.rpm
 libassuan-devel-2.5.6-1.emt26.x86_64.rpm
-libattr-2.6.0-2.emt26.x86_64.rpm
-libattr-devel-2.6.0-2.emt26.x86_64.rpm
+libattr-2.6.0-1.emt26.x86_64.rpm
+libattr-devel-2.6.0-1.emt26.x86_64.rpm
 libbacktrace-static-13.2.0-7.emt26.x86_64.rpm
 libcap-2.69-15.emt26.x86_64.rpm
 libcap-debuginfo-2.69-15.emt26.x86_64.rpm

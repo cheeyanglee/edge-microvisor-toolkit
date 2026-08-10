@@ -172,7 +172,7 @@ openssl-3.3.7-3.emt26.x86_64.rpm
 openssl-devel-3.3.7-3.emt26.x86_64.rpm
 openssl-libs-3.3.7-3.emt26.x86_64.rpm
 openssl-perl-3.3.7-3.emt26.x86_64.rpm
-openssl-static-3.7.3-5.emt26.x86_64.rpm
+openssl-static-3.3.7-3.emt26.x86_64.rpm
 libcap-2.69-15.emt26.x86_64.rpm
 libcap-devel-2.69-15.emt26.x86_64.rpm
 debugedit-5.0-2.emt26.x86_64.rpm
@@ -202,7 +202,7 @@ curl-devel-8.11.1-9.emt26.x86_64.rpm
 curl-libs-8.11.1-9.emt26.x86_64.rpm
 createrepo_c-1.0.3-1.emt26.x86_64.rpm
 libxml2-2.11.5-10.emt26.x86_64.rpm
-libxml2-devel-2.11.5-1.emt26.x86_64.rpm
+libxml2-devel-2.11.5-10.emt26.x86_64.rpm
 docbook-dtd-xml-4.5-11.emt26.noarch.rpm
 docbook-style-xsl-1.79.1-14.emt26.noarch.rpm
 libsepol-3.6-2.emt26.x86_64.rpm
