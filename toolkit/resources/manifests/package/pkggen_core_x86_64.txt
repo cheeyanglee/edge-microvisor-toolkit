@@ -144,10 +144,12 @@ perl-Symbol-1.09-512.emt26.noarch.rpm
 perl-Term-ANSIColor-5.01-512.emt26.noarch.rpm
 perl-Term-Cap-1.18-512.emt26.noarch.rpm
 perl-Text-ParseWords-3.31-512.emt26.noarch.rpm
+perl-Text-Tabs+Wrap-2021.0814-512.emt26.noarch.rpm
 perl-Thread-Queue-3.14-512.emt26.noarch.rpm
 perl-Time-Local-1.300-512.emt26.noarch.rpm
 perl-Unicode-Normalize-1.32-512.emt26.x86_64.rpm
 perl-base-2.27-512.emt26.noarch.rpm
+perl-constant-1.33-512.emt26.noarch.rpm
 perl-if-0.61.000-512.emt26.noarch.rpm
 perl-interpreter-5.38.2-512.emt26.x86_64.rpm
 perl-libs-5.38.2-512.emt26.x86_64.rpm
