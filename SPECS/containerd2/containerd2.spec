@@ -93,10 +93,15 @@ This package contains module for debugging and stress-testing tool for container
 
 %build
 export BUILDTAGS="-mod=vendor"
+# cgo-less OpenSSL backend for our CGO_ENABLED=0 build (Go 1.26 systemcrypto needs cgo).
+# Go 1.26-only flag: remove at golang >= 1.27 (auto-selected there; else build fails).
+# Ref: https://github.com/microsoft/go/blob/microsoft/main/eng/doc/NocgoOpenSSL.md
+export GOEXPERIMENT=ms_nocgo_opensslcrypto
 make VERSION="%{version}" REVISION="%{commit_hash}" binaries man
 
 %check
 export BUILDTAGS="-mod=vendor"
+export GOEXPERIMENT=ms_nocgo_opensslcrypto
 make VERSION="%{version}" REVISION="%{commit_hash}" test
 
 %install
@@ -149,7 +154,6 @@ fi
 - Remove 'BuildRequires: golang < 1.25' and set GOEXPERIMENT=ms_nocgo_opensslcrypto
   to build with the default Go toolchain, resolving Go stdlib CVE-2026-25679,
   CVE-2026-27139, CVE-2026-33811, CVE-2026-39836 (was built on Go 1.24.13).
-
 
 * Thu Aug 6 2026 Lee Chee Yang <chee.yang.lee@intel.com> - 2.2.4-4
 - merge from Azure Linux 3.0.20260712-3.0
